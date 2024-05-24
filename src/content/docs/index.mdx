@@ -1,0 +1,27 @@
+---
+title: Coderos Wiki
+description: Team and project documentation
+hero:
+  tagline: Center of project and crew documentation
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Start Here
+      link: /about/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid>
+	<Card title="Read the docs" icon="open-book">
+        <div className="flex flex-col space-y-4">
+            <a href="/about/">About the Wiki</a>
+            <a href="/about/direction">Direction</a>
+            <a href="/about/usage">Wiki Usage</a>
+        </div>
+	</Card>
+</CardGrid>
