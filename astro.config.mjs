@@ -19,6 +19,21 @@ export default defineConfig({
       autogenerate: {
         directory: 'about',
       },
+    }, {
+      label: 'Engineering',
+      items: [
+        {
+          label: 'Development',
+          items: [
+            {
+              label: 'Standards',
+              autogenerate: {
+                directory: 'engineering/development/standards'
+              }
+            },
+          ],
+        },
+      ],
     }]
   }), tailwind({
     applyBaseStyles: false,
